@@ -7,7 +7,7 @@ namespace SamsungIssueTestProject
 {
     [Activity(MainLauncher = true, 
               NoHistory = true,
-              Name = "SamsungIssueTestProject.SplashActivity",
+              Name = "samsungissuetestproject.SplashActivity",
               ScreenOrientation = ScreenOrientation.Portrait,
               ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.ScreenSize)]
     public class SplashActivity : MvxSplashScreenActivity, IMvxAppStart
