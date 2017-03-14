@@ -1,6 +1,6 @@
 using System;
 using System.IO;
-using FriendsAppDate.Foundation.Interfaces;
+using SamsungIssueTestProject.Foundation.Interfaces;
 
 namespace SamsungIssueTestProject
 {

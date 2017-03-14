@@ -82,11 +82,11 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FriendsAppDate.Business\SamsungIssueTestProject.Business.csproj">
+    <ProjectReference Include="..\SamsungIssueTestProject.Business\SamsungIssueTestProject.Business.csproj">
       <Project>{E9F5269A-0FF8-44D5-8347-D58F999DA4EE}</Project>
       <Name>SamsungIssueTestProject.Business</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FriendsAppDate.Foundation\SamsungIssueTestProject.Foundation.csproj">
+    <ProjectReference Include="..\SamsungIssueTestProject.Foundation\SamsungIssueTestProject.Foundation.csproj">
       <Project>{D8339C9D-CFCE-4287-B517-F8A9CB249E90}</Project>
       <Name>SamsungIssueTestProject.Foundation</Name>
     </ProjectReference>

@@ -5,11 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamsungIssueTestProject", "SamsungIssueTestProject\SamsungIssueTestProject.csproj", "{383D00D9-EE4C-4CFF-A7E9-9C644662E639}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamsungIssueTestProject.Business", "FriendsAppDate.Business\SamsungIssueTestProject.Business.csproj", "{E9F5269A-0FF8-44D5-8347-D58F999DA4EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamsungIssueTestProject.Business", "SamsungIssueTestProject.Business\SamsungIssueTestProject.Business.csproj", "{E9F5269A-0FF8-44D5-8347-D58F999DA4EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamsungIssueTestProject.DataAccess", "FriendsAppDate.DataAccess\SamsungIssueTestProject.DataAccess.csproj", "{CBE5AB48-23B6-4BC0-9451-E3D07AE0E4F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamsungIssueTestProject.DataAccess", "SamsungIssueTestProject.DataAccess\SamsungIssueTestProject.DataAccess.csproj", "{CBE5AB48-23B6-4BC0-9451-E3D07AE0E4F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamsungIssueTestProject.Foundation", "FriendsAppDate.Foundation\SamsungIssueTestProject.Foundation.csproj", "{D8339C9D-CFCE-4287-B517-F8A9CB249E90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamsungIssueTestProject.Foundation", "SamsungIssueTestProject.Foundation\SamsungIssueTestProject.Foundation.csproj", "{D8339C9D-CFCE-4287-B517-F8A9CB249E90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,8 +1,8 @@
 using Android.Content;
 using Autofac;
 using Autofac.Extras.MvvmCross;
-using FriendsAppDate.Business;
-using FriendsAppDate.Droid;
+using SamsungIssueTestProject.Business;
+using SamsungIssueTestProject.Droid;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Droid.Platform;
 using MvvmCross.Platform.IoC;

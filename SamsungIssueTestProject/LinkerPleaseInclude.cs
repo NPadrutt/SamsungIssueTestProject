@@ -5,7 +5,7 @@ using Android.Views;
 using Android.Widget;
 using MvvmCross.Platform.IoC;
 
-namespace FriendsAppDate.Droid
+namespace SamsungIssueTestProject.Droid
 {
     /// <summary>
     ///     Defines the LinkerPleaseInclude type.

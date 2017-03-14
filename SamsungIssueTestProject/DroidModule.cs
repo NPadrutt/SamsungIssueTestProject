@@ -1,5 +1,5 @@
 using Autofac;
-using FriendsAppDate.Foundation.Interfaces;
+using SamsungIssueTestProject.Foundation.Interfaces;
 
 namespace SamsungIssueTestProject
 {

@@ -1,18 +1,16 @@
-﻿using System.Resources;
-using System.Reflection;
+﻿using System.Reflection;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SamsungIssueTestProject.Business")]
+[assembly: AssemblyTitle("SamsungIssueTestProject.Foundation")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Information Technology Services")]
-[assembly: AssemblyProduct("SamsungIssueTestProject.Business")]
+[assembly: AssemblyProduct("SamsungIssueTestProject.Foundation")]
 [assembly: AssemblyCopyright("Copyright © Information Technology Services 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: NeutralResourcesLanguage("en")]
 
 // Version information for an assembly consists of the following four values:
 //

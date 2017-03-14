@@ -5,11 +5,11 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E9F5269A-0FF8-44D5-8347-D58F999DA4EE}</ProjectGuid>
+    <ProjectGuid>{D8339C9D-CFCE-4287-B517-F8A9CB249E90}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SamsungIssueTestProject.Business</RootNamespace>
-    <AssemblyName>SamsungIssueTestProject.Business</AssemblyName>
+    <RootNamespace>SamsungIssueTestProject.Foundation</RootNamespace>
+    <AssemblyName>SamsungIssueTestProject.Foundation</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -35,23 +35,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AppStart.cs" />
-    <Compile Include="App.cs" />
+    <Compile Include="Interfaces\ISqlite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SamsungIssueTestProject.DataAccess\SamsungIssueTestProject.DataAccess.csproj">
-      <Project>{cbe5ab48-23b6-4bc0-9451-e3d07ae0e4f7}</Project>
-      <Name>SamsungIssueTestProject.DataAccess</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SamsungIssueTestProject.Foundation\SamsungIssueTestProject.Foundation.csproj">
-      <Project>{D8339C9D-CFCE-4287-B517-F8A9CB249E90}</Project>
-      <Name>SamsungIssueTestProject.Foundation</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="project.json" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v7.1\Mono.Android.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
